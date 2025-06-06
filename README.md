@@ -9,7 +9,7 @@ A couple of us have a TouchBoard or two in our kits, and would like to be able t
 ## BareConductive GitHub Repo Forks
 
 We've forked all of BareConductive's public repos.
-They have the [`bareconductive `](https://github.com/orgs/MakeItZone/repositories?type=all&q=topic%3Abareconductive) topic.
+They have the [`bareconductive`](https://github.com/orgs/MakeItZone/repositories?type=all&q=topic%3Abareconductive) topic.
 
 ## BareConductive Website
 
