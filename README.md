@@ -17,7 +17,11 @@ The [Wayback Machine archive from Feb 22, 2025](https://web.archive.org/web/2025
 
 Here is a direct link to the [resources from that snapshot.](/web/20250222071324/https://www.bareconductive.com/blogs/resources)
 
-*You will be blocked by a modal pop-up. Click on the 'x' (dismiss it). You'll be redirected to a page not found error. Go back a page, and with a little luck, the flag that stops the modal will be set and you'll be able to browse the snapshot.*
+**How to Work around the Modal Popup**
+- view page inspector, and use the element picker
+- click on an empty area of the page; you should select the element: `<div class="recommendation-modal__backdrop"></div>`
+- click on the `</div>` just below (i.e. the `div` that contains the modal backdrop); it should select the matching opening `<div>`.
+- delete the node (`div`) from the DOM. Modal should be gone 😉
 
 ## Other References
 - https://lab.arts.ac.uk/books/physical-computing/page/how-to-use-a-bare-conductive-touch-board-with-arduino (lots of other interesting info!)
